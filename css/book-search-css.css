@@ -1,0 +1,94 @@
+/* Library Book Search Plugin CSS*/
+.form-body{
+    border: 1px solid #000;
+    padding: 35px;
+}
+.form-body h4{
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+.flex-container{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 35px;
+}
+.flex-container .flex-item{
+    width: 300px;
+}
+.flex-container .flex-item label{
+    display: inline-block;
+    width: 100px;
+}
+.flex-container .flex-item select{
+    width: 100px;
+}
+.flex-container .flex-item select option{
+    text-align: center;
+}
+.form-body button{
+    width: 150px;
+    padding: 10px;
+}
+.form-body .btn-wrap{
+    text-align: center;
+}
+.result-body{
+    border: 1px solid #000;
+}
+.result-header, .result-row {
+    display: flex; 
+}
+.result-col {
+    flex: 1; 
+}
+.result-header{
+    border-bottom: 1px solid #000;
+   padding: 10px 24px;
+}
+.result-row{
+    border-bottom: 1px solid #000;
+    margin: 24px;
+}
+.ui-slider-horizontal {
+    height: 0.3em!important;
+}
+.ui-slider .ui-slider-handle {
+    width: 0.8em!important;
+    height: 0.8em!important;
+    border-radius: 50%!important;
+}
+.ui-widget-header{
+    background: #000!important;
+}
+.slider-box {
+    width: 90%; margin: 25px auto;
+}
+.slider-box label, .slider-box input {
+    border: none; display: inline-block; margin-right: -4px; vertical-align: top; width: 30%
+}
+.slider-box input {
+    width: 70%
+}
+.slider-box .slider {
+    margin: 25px 0
+}
+.slider-box{
+    margin: 0
+}
+span.star-ratings img{
+    height: 16px;
+}
+div#pagination {
+    text-align: right;
+    margin: 10px 24px;
+}
+div#pagination a{
+    text-decoration: none;
+}
+.no-data{
+    text-align: center;
+}
+input.priceRange.priceStart{
+    font-size: 15px;
+}
